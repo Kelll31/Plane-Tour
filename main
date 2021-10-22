@@ -1,0 +1,17 @@
+<ru.yandex.yandexmapkit.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="you are key" />
+
+
+
+final MapView mMapView = (MapView) findViewById(R.id.map);
+ 
+// Получаем MapController
+MapController mMapController = mMapView.getMapController();
+ 
+// Перемещаем карту на заданные координаты
+mMapController.setPositionAnimationTo(new GeoPoint(60.113337, 55.151317));
+ 
+mMapController.setZoomCurrent(15);
