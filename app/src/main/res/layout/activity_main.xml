@@ -24,4 +24,12 @@
         tools:layout_editor_absoluteX="120dp"
         tools:layout_editor_absoluteY="616dp"
         tools:text="Select your ass" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        tools:layout_editor_absoluteX="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
