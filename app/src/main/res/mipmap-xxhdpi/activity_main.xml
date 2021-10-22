@@ -11,32 +11,21 @@
         android:layout_width="410dp"
         android:layout_height="733dp"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="-98dp"
-        tools:layout_editor_absoluteY="-98dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-3dp"
         tools:visibility="visible" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:backgroundTintMode="src_in"
-        android:text="select_your_ass"
+        android:text="Select your ass"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider"
         tools:layout_editor_absoluteX="120dp"
         tools:text="Select your ass" />
-
-    <TextView
-        android:id="@+id/TextView"
-        android:layout_width="118dp"
-        android:layout_height="57dp"
-        android:text="Hello World!"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/divider"
@@ -63,8 +52,6 @@
         android:text="Регистрация"
         app:layout_constraintBottom_toTopOf="@+id/divider"
         app:layout_constraintEnd_toEndOf="@+id/mapView"
-        app:layout_constraintHorizontal_bias="0.607"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.783" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
