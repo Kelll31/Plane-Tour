@@ -103,6 +103,15 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             app:layout_constraintGuide_percent="0.1" />
+
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="455dp"
+        android:layout_height="755dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/train"
+        tools:layout_editor_absoluteY="-230dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
